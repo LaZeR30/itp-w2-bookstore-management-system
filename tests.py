@@ -8,7 +8,6 @@ def test_create_bookstore():
     name = get_bookstore_name(store)
     assert name == "rmotr's bookstore"
 
-
 def test_add_get_authors():
     store = create_bookstore("rmotr's bookstore")
 
